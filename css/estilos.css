@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Estilos generales */
 * {
   padding: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: "Bebas Neue", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -214,33 +215,29 @@ footer .contact-info p {
   .logo img {
     width: 100px;
   }
-
   .menu {
     display: none;
   }
-
   .logo div {
     padding: 10px;
   }
-
   .noticias-container,
   .video-container {
     width: 100%;
     float: none;
   }
 }
-
 @media (max-width: 600px) {
   .vehiculos-section {
     flex-direction: column;
   }
-
   .vehiculos-container {
     flex-direction: column;
   }
-
   .vehiculo {
     margin-right: 0;
     margin-bottom: 20px;
   }
 }
+
+/*# sourceMappingURL=estilos.css.map */
